@@ -1,5 +1,5 @@
-source("/Users/bma/Dropbox (IGS)/Projects/_technical/R_Library/heatmapLib2.R")
-source("/Users/bma/Dropbox (IGS)/Projects/_technical/R_Library/vegdist.R")
+source("R_Library/heatmapLib2.R")
+source("R_Library/vegdist.R")
 
 ################# set 3 ###############
 mytotal=read.csv("set3.csv",header=T,row.names=1,check.names=F)
